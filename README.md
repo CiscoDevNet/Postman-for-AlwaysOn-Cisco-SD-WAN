@@ -9,7 +9,7 @@ This public repo contains a [POSTMAN](https://getpostman.com) environment and co
 This collection only includes calls to read (GET) information from the environment. It does not write changes to the vManage environment. The collection provides the following REST API calls to:
 
 - Authenticate
-  - Credentials provided in the [environment](Cisco-SD-WAN-Environment.postman_environment.json) are for the Always On environment.
+  - Credentials provided in the [environment](https://github.com/CiscoDevNet/Postman-for-AlwaysOn-Cisco-SD-WAN/blob/master/Cisco-AlwaysOn-SD-WAN-Env.postman_environment.json are for the Always On environment.
     - After authenticating with a username and password, another request is required to obtain a X-XSRF-TOKEN to protect against [Cross-Site Request Forgery](https://www.cisco.com/c/en/us/td/docs/routers/sdwan/configuration/sdwan-xe-gs-book/cisco-sd-wan-API-cross-site-request-forgery-prevention.html). When using this collection the token is automatically stored in a postman environment variable and used with further requests.
 - List devices that are part of the SD-WAN fabric and show device status, counters, and interface statistics for all the interfaces in the fabric.
 - List device templates
