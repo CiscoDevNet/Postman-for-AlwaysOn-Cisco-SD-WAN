@@ -1,6 +1,6 @@
 # Postman for Cisco SD-WAN
 
-This public repo contains a [POSTMAN](https://getpostman.com) environment and collection that can be used to interact with the `Cisco SD-WAN vManage REST API`. The environment is pre-configured to access the [Cisco DevNet Always On Sandbox for SD-WAN 19.2](https://devnetsandbox.cisco.com/RM/Diagram/Index/fa7f7ef9-e224-4ee7-a3fe-0f25506e9db9?diagramType=Topology) fabric. You can edit the variables in the environment to point to your own vManage instance.
+This public repo contains a [POSTMAN](https://getpostman.com) environment and collection that can be used to interact with the `Cisco SD-WAN vManage REST API`. The environment is pre-configured to access the [Cisco DevNet Always On Sandbox for SD-WAN](https://devnetsandbox.cisco.com/RM/Diagram/Index/a4ab71bc-f7a0-4d63-bedb-05a051818569?diagramType=Topology) fabric. You can edit the variables in the environment to point to your own vManage instance.
 
 ![Sandbox Image](./images/sdwan_sandbox.png)
 
@@ -28,7 +28,7 @@ Feel free to modify them as you see fit and to add more calls to the collection.
 The Postman collection and environment will need:
 
 - Postman 6.4.4+
-- Cisco SD-WAN vManage 19.2.2
+- Cisco SD-WAN vManage 19.2.2 +
 
 ## Setup
 
